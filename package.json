@@ -1,0 +1,35 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "Đây là file CSS và thư viện của Sky Albert Channel trong playlist",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon --inspect app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Quang-IT/TodoList.git"
+  },
+  "keywords": [
+    "todo",
+    "todolist",
+    "todoapp"
+  ],
+  "author": "Phan Xuan Quang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Quang-IT/TodoList/issues"
+  },
+  "homepage": "https://github.com/Quang-IT/TodoList#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.6"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.12"
+  }
+}
